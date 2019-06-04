@@ -38,7 +38,7 @@ const Game = (props) => {
   const [stars, setStars] = React.useState(utils.random(1, 9));
   const [availableNums, setAvailableNums] = React.useState(utils.range(1, 9));
   const [candidateNums, setCandidateNums] = React.useState([]);
-  const [secondsLeft, setSecondsLeft] = React.useState(1000);
+  const [secondsLeft, setSecondsLeft] = React.useState(10);
 
 	React.useEffect(() => {
   	if (secondsLeft > 0 && availableNums.length > 0) {
