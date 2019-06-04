@@ -1,4 +1,4 @@
-# react-star-match
+# StarMatch-React
 
 Baseado na aula https://jscomplete.com/playground/rgs3.8 
 
